@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Udacity Canvas Tutorial</title>
+</head>
+<body>
+
+<!-- MAIN -->
+
+    <canvas id="c" width="500" height="500"></canvas>
+
+    <script>
+        var c = document.querySelector("#c");
+        var ctx = c.getContext("2d");
+
+        ctx.fillRect(100, 100, 100, 100);
+        ctx.strokeRect(50, 50, 50, 50);
+    </script>
+</body>
+</html>
